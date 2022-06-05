@@ -1,7 +1,7 @@
-const arg = process.argv.slice(2);
+const args = process.argv.slice(2);
 
-console.log(`Total number of arguments is ${arg.length}`);
-console.log(`Arguments: ${JSON.stringify(arg)}`);
+console.log(`Total number of arguments is ${args.length}`);
+console.log(`Arguments: ${JSON.stringify(args)}`);
 
 const echoInput = (chunk) => {
     const chunkStringified = chunk.toString();
